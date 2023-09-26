@@ -43,5 +43,6 @@ it('stateful component returns a valid component instance', async () => {
     render(<App/>); // Render the App component. This will use the mocked AgGridReact component.
     // Check that the text "Mock AgGridReact" is in the document.
     // This verifies that our mock AgGridReact component is being rendered as expected.
-    expect(screen.getByText('Mock AgGridReact')).toBeInTheDocument();
+    const agGridReactComponent = screen.getByText('Mock AgGridReact');
+    expect(agGridReactComponent).toBeInTheDocument();
 });

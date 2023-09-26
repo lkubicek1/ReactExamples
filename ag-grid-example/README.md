@@ -1,4 +1,4 @@
-# App Component and Its Testing: A Detailed Guide
+# AgGridReact Testing Example
 
 ## Overview of `App` Component and Test
 
